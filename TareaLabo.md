@@ -6,7 +6,7 @@ En este trabajo para la universidad tenemos que realizar una replica del estanci
 
 Las clases que planeamos usar en este trabajo son las siguientes:
 
-**TABLERO:** Esta es la clase principal de nuestro trabajo ya que el tablero es la pieza clave del juego ya que dependiendo de la casilla en la que caigas es lo que sucede.
+**TABLERO:** Esta es la clase principal de nuestro trabajo ya que el tablero es la pieza clave del juego ya que dependiendo de la casilla en la que caigas sucedera un evento.
 
 **TARJETA:** La cual se te da al comprar algun tipo de vivienda del juego con el nombre y valor de la vivienda.
 
@@ -28,3 +28,6 @@ Las clases que planeamos usar en este trabajo son las siguientes:
 
 **JUGADOR:** Los jugadores poseen billetes, Posicion, Propiedades a cargo y Nombre. Estos atributos son heredados a sus clases hijas.
 
+## LOS METODOS
+
+**TABLERO:** Posee los siguientes metodos: tirar dados, modo de juego y tambien el metodo repartir billetes.
