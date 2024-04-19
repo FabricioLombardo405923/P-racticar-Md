@@ -2,7 +2,7 @@
 
 En este trabajo para la universidad tenemos que realizar una replica del estanciero en el lenguaje Java,para ello como primer paso se nos pidio primero realizar un diagrama de las clases que son necesarias para este proyecto. 
 
-## Las Clases 
+## LAS CLASES
 
 Las clases que planeamos usar en este trabajo son las siguientes:
 
