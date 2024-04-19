@@ -37,3 +37,6 @@ Las clases que planeamos usar en este trabajo son las siguientes:
 **PEON:** Posee el metodo activo y el metodo mover peon.
 
 **JUGADOR:** Esta clase posee los metodos necesarios para que el jugados pueda interactuar. Por ejemplo: adquirir propiedades, adquirir billetes, encarcelado y etc. Además cada subclase le añade sus metodos en forma de su comportamiento exceptuando por la clase jugador principal que fue creada visualizandola como la clase que un jugador que no sea la maquina la utilize.
+##Grafico DER
+
+![UML](C:\Users\marti\OneDrive\Documentos\benjamin\Estanciero\graficoDER.jpg)
