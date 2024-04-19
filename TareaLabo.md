@@ -6,7 +6,7 @@ En este trabajo para la universidad tenemos que realizar una replica del estanci
 
 Las clases que planeamos usar en este trabajo son las siguientes:
 
-**TABLERO:** Esta es la clase principal de nuestro trabajo ya que el tablero es la pieza clave del juego ya que dependiendo de la casilla en la que ciagas es lo que sucede.
+**TABLERO:** Esta es la clase principal de nuestro trabajo ya que el tablero es la pieza clave del juego ya que dependiendo de la casilla en la que caigas es lo que sucede.
 
 **TARJETA:** La cual se te da al comprar algun tipo de vivienda del juego con el nombre y valor de la vivienda.
 
@@ -14,7 +14,17 @@ Las clases que planeamos usar en este trabajo son las siguientes:
 
 **PROPIEDAD:**  Esta clase sirve para identificar las propiedades del juego.
 
-**JUGADOR:** Es una clase padre hecha para crear los jugadores dentro del juego. Contiene las clases: **JugadorAgresivo**, **JugadorConservador** y **JugadorConservador**. Las cuales poseen suss propios comportamientos.
+**JUGADOR:** Es una clase padre hecha para crear los jugadores dentro del juego. Contiene las clases: **JugadorAgresivo**, **JugadorConservador**, **JugadorConservador** y **JugadorPrincipal**. Las cuales poseen sus propios comportamientos.
 
 ## LOS ATRIBUTOS
-**TABLERO:** 
+
+**TABLERO:** El tablero posee como atributos todas las clases con las que se conecta de alguna forma, los dados y el numero de casillas jugables.
+
+**TARJETA:** Posee los atributos nombre y tipo que son necesarios para diferenciar que contiene cada tarjeta.
+
+**PEON:** Tiene los atributos color y forma principales diferenciadores de cada peon en juego.
+
+**PROPIEDAD:** Este tiene el nombre y las posibles mejoras para dicha propiedad.
+
+**JUGADOR:** Los jugadores poseen billetes, Posicion, Propiedades a cargo y Nombre. Estos atributos son heredados a sus clases hijas.
+
